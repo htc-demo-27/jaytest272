@@ -13,13 +13,15 @@ containers:
   frontend:
     image: # Set by pipeline
     variables:
-      Hello: World
+      Hello: Super awesome evening crowd!!!!!!!!!!!
 
 resources:
   dns: # We need a DNS record to point to the service 
     type: dns
   cachy:
     type: redis
+  fashy:
+    type: redit
   route:
     type: route
     params:
