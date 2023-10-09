@@ -21,7 +21,7 @@ resources:
   cachy:
     type: redis
   fashy:
-    type: redit
+    type: redis
   route:
     type: route
     params:
